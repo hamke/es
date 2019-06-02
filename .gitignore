@@ -2,3 +2,5 @@ cn/
 jp/
 kr/
 zh/
+.gitignore
+.htaccess
