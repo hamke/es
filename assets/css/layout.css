@@ -71,8 +71,7 @@
 #team-position{
   height: 100%;
 }
-.bx-controls-direction a{
-}
+
 #container .bx-wrapper .bx-controls-direction a{
   top: calc(50% - 32px);
 }
@@ -279,7 +278,7 @@
   float: right;
   width: auto;
   margin-right: 40px;
-  padding-top: 20px;
+  padding-top: 25px;
   /* width: calc(100% - 80%); */
   /*margin-left: 50px;*/
 }
@@ -322,6 +321,92 @@
 #gnb .depth1 a:hover {
   opacity:0.5;
   border-color: rgba(255,255,255,1);
+}
+
+.langselector-btn {
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+  background: url(https://hellotblog.wordpress.com/wp-content/uploads/2025/04/icon-world-globe-white-01-50x50-1.png) center center / contain no-repeat;
+  cursor: pointer;
+}
+.langselector-list {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  width: max-content;
+  padding: 16px 19px 17px 17px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .08);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+
+}
+.langselector-list.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+.langselector-list a {
+  color: inherit !important;
+}
+.langselector-list a:hover {
+  border-color: rgba(255, 255, 255, 1) !important;
+  border-bottom: 0 !important;
+}
+.langselector-list li {
+  float: unset !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+  padding-right: 0 !important;
+  padding-bottom: 8px;
+  color: #fff !important;
+}
+.langselector-list li:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+  #lnb .langselector {
+     display: none !important;
+  }
+}
+#lnb .langselector {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: calc(100% - 130px);
+  margin-left: 0;
+  padding: 20px 0 30px;
+  border-top: 1px solid #717171;
+}
+#lnb .langselector-list {
+  display: flex;
+  position: unset;
+  bottom: 0;
+  right: 0;
+  visibility: visible;
+  opacity: 1;
+  background-color: initial;
+  color: #fff;
+  padding: 0 5px 0 5px;
+  transform: unset;
+}
+#lnb .langselector-list:last-child {
+  padding-top: 8px;
+}
+#lnb .langselector-list li {
+  padding-bottom: 0;
+  padding-left: 15px;
 }
 
 /* Container */

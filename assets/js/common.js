@@ -217,4 +217,12 @@ $(document).ready(function() {
    document.body.classList.add('allowContent');
  }
 
+  $('.langselector').on('mouseover',function() {
+    $('.langselector-list').addClass('is-active');
+  });
+
+  $('.langselector').on('mouseout',function() {
+    $('.langselector-list').removeClass('is-active');
+  });
+
 });
