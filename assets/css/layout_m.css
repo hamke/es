@@ -156,7 +156,7 @@
   }
   #container .introduce p{
     font-size: 15px;
-    word-break: keep-all;
+    /* word-break: keep-all; */
     margin-top: 0.5rem;
   }
   #container .introduce .content_box li{
