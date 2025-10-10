@@ -401,7 +401,7 @@
   padding: 0 5px 0 5px;
   transform: unset;
 }
-#lnb .langselector-list:last-child {
+#lnb .langselector-list:not(:first-child) {
   padding-top: 8px;
 }
 #lnb .langselector-list li {
