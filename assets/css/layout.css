@@ -994,7 +994,7 @@ font-weight:400;}
   font-size: 23px;
   border-color: white;
   font-weight: 300;
-  width: 230px;
+  width: 260px;
   margin: -19px 72px;
   padding: 15px;
   height: 62px;
@@ -1088,7 +1088,7 @@ background-image: url('../img/bg/rider.png');} */
 #container .step h2 {position: relative;padding: 50px 0;color: #000;font-size: 3.125rem;}
 #container .step p {font-size: 1.3125rem;}
 #container .step .inner .btn {padding: 40px 0 10px;}
-#container .step_line {padding-top: 70px;background: url('../img/bg/bg_line_h.png') repeat-x 0 50%;}
+#container .step_line {padding-top: 100px;background: url('../img/bg/bg_line_h.png') repeat-x 0 50%;}
 #container .step_line li {position: relative;float: left;width: 20%;margin: 0;top: 25px;}
 #container .step_line li:first-child {margin: 0;}
 #container .register_form {padding: 50px 0 150px;color: #000;background: #ededed;}
